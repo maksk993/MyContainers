@@ -3,7 +3,6 @@
 #include <string>
 #include <functional>
 #include "TestHashAndAllocator.hpp"
-#include <unordered_set>
 
 namespace My {
     template <typename T1, typename T2, typename Hash = std::hash<T1>, typename Allocator = std::allocator<std::pair<T1, T2>>>
